@@ -32,9 +32,6 @@ def primalidad(num):
         else:
             pass
 
-
-
-
 def multiplicidad(num):
     MIN = 2
     MAX = 9
