@@ -38,7 +38,7 @@ def main():
             print("CONVERTIENDO...")
             result = convertidor(num)
             print("El numero convertido a capicua es: " + result)
-            
+
         else:
             print("OK, BYE")
 
