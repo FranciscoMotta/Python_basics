@@ -8,16 +8,20 @@ def capicuo (numer):
 def conv (numero):
     llave = True
     count = 0
+    pasos = 1
     while(llave):
         for i in numero:
             count = count + int(i)
         val = int(numero) + count
-        print(str(val))
+        print(str(numero) + '+' + str(count) + '=' + str(val))
+        count = 0
         if capicuo(str(val)) == True:
             llave = False
-            print('El capicuo conv es: ' + str(val))
+            print('El capicuo conv es: ' + str(val) + ' Hallado en: ' + str(pasos) + ' pasos')
         else:
-            numero = str(val)
+            pass
+        pasos+=1
+        numero = str(val)
 
 def main():
     num = input('Ingresa un numero: ')
