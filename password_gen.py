@@ -19,13 +19,9 @@ def generar_cont():
 
     return contrase
 
-
-
 def main():
     passw = generar_cont()
     print('Tu nueva clave es: ' + passw)
-
-
 
 if __name__ == '__main__':
     main()
